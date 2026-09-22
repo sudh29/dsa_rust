@@ -36,7 +36,11 @@ fn vectors_examples() {
 
     // Method 3: Using with_capacity
     let mut vec3: Vec<String> = Vec::with_capacity(3);
-    println!("with_capacity(3): len={}, capacity={}\n", vec3.len(), vec3.capacity());
+    println!(
+        "with_capacity(3): len={}, capacity={}\n",
+        vec3.len(),
+        vec3.capacity()
+    );
 
     // Adding elements
     println!("2. Adding Elements:\n");
@@ -56,7 +60,7 @@ fn vectors_examples() {
 
     println!("vec1[0] = {}", vec1[0]);
     println!("vec1.get(2) = {:?}", vec1.get(2));
-    println!("vec1.get(100) = {:?}", vec1.get(100));  // Returns None (safe)
+    println!("vec1.get(100) = {:?}", vec1.get(100)); // Returns None (safe)
     // println!("vec1[100] = {}", vec1[100]);  // Would panic!
     println!();
 
@@ -134,11 +138,11 @@ fn strings_examples() {
     println!("1. String Types:\n");
 
     // &str - String slice (immutable, fixed size, often in static memory)
-    let str_literal: &str = "Hello";  // &str (string slice)
+    let str_literal: &str = "Hello"; // &str (string slice)
     println!("String literal (&str): {}", str_literal);
 
     // String - Owned string (heap-allocated, mutable, growable)
-    let string_owned = String::from("Hello");  // String (owned)
+    let string_owned = String::from("Hello"); // String (owned)
     println!("String::from(): {}", string_owned);
 
     let string_macro = String::from("World");
@@ -182,7 +186,10 @@ fn strings_examples() {
     // Unicode example
     let unicode = String::from("Hello 🦀");
     println!("\nUnicode text: {}", unicode);
-    println!("Byte length: {} (emojis take multiple bytes)", unicode.len());
+    println!(
+        "Byte length: {} (emojis take multiple bytes)",
+        unicode.len()
+    );
     println!("Char count: {}", unicode.chars().count());
     println!();
 
@@ -281,7 +288,7 @@ fn hashmap_examples() {
     }
 
     println!("Bob's score: {:?}", map1.get("Bob"));
-    println!("Eve's score: {:?}", map1.get("Eve"));  // Returns None
+    println!("Eve's score: {:?}", map1.get("Eve")); // Returns None
 
     // Check if key exists
     println!("Contains 'Charlie': {}", map1.contains_key("Charlie"));
@@ -296,7 +303,7 @@ fn hashmap_examples() {
 
     // Entry API (more efficient for conditional inserts)
     map1.entry(String::from("Eve")).or_insert(88);
-    map1.entry(String::from("Alice")).or_insert(999);  // Won't insert (exists)
+    map1.entry(String::from("Alice")).or_insert(999); // Won't insert (exists)
 
     println!("After entry().or_insert():");
     println!("  Eve: {:?}", map1.get("Eve"));

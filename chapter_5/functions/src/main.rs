@@ -15,7 +15,7 @@ fn main() {
 
     let b = {
         let x = 3;
-        x + 2;
+        let _ = x + 2;
     }; // semicolon → this is a statement, block returns ()
     println!("Value of b (block with semicolon): {:?}", b);
 

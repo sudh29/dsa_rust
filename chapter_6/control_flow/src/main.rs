@@ -84,16 +84,16 @@ fn main() {
     // Loop labels allow you to break or continue a specific loop
     // when you have nested loops. Labels start with a single quote (')
     let mut x = 0;
-    
+
     // Outer loop label
     'outer: loop {
         x += 1;
         println!("Outer loop, x = {}", x);
-        
+
         // Inner loop
         for y in 0..3 {
             println!("  Inner loop, y = {}", y);
-            
+
             // break with label: breaks the outer loop, not just inner
             if x == 2 && y == 1 {
                 println!("  Breaking outer loop!");
@@ -107,16 +107,16 @@ fn main() {
     let mut a = 0;
     'counting: loop {
         a += 1;
-        
+
         if a == 3 {
             println!("Skipping iteration a = {}", a);
-            continue 'counting;  // continue with the labeled loop
+            continue 'counting; // continue with the labeled loop
         }
-        
+
         println!("Current a = {}", a);
-        
+
         if a == 5 {
-            break 'counting;  // break the labeled loop
+            break 'counting; // break the labeled loop
         }
     }
 }
