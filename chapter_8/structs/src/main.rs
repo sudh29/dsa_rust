@@ -1,3 +1,5 @@
+#![allow(clippy::approx_constant)]
+
 // STRUCT DEFINITION
 // A struct is a custom data type that lets you package together related data
 // Structs have named fields, unlike tuples

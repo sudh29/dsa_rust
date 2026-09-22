@@ -1,3 +1,5 @@
+#![allow(clippy::approx_constant)]
+
 // ============ GENERIC TYPES ============
 
 // Generic function: works with any type T

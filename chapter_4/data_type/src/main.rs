@@ -1,3 +1,5 @@
+#![allow(clippy::approx_constant)]
+
 fn main() {
     // Scalar Types
     // Integer
