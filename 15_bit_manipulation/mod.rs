@@ -1,0 +1,10 @@
+pub mod p00_number_of_1_bits;
+pub mod p01_non_repeating_numbers;
+pub mod p02_bit_difference;
+pub mod p03_count_total_set_bits;
+pub mod p04_is_power_of_two;
+pub mod p05_find_position_of_the_only_set_bit;
+pub mod p06_set_all_the_bits_in_given_range_of_a_number;
+pub mod p07_division_without_using_multiplication_division_and_mod_operator;
+pub mod p08_calculate_square_of_a_number_without_using_pow;
+pub mod p09_power_set;
