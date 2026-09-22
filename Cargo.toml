@@ -1,0 +1,25 @@
+[package]
+name = "dsa_rust"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [
+    ".",
+    "chapter_1/section_2",
+    "chapter_2/guess_game",
+    "chapter_2/variables",
+    "chapter_3/variables",
+    "chapter_4/data_type",
+    "chapter_5/functions",
+    "chapter_6/control_flow",
+    "chapter_7/ownership",
+    "chapter_8/structs",
+    "chapter_9/enum_match",
+    "chapter_10/package_crates_module",
+    "chapter_11/data_types",
+    "chapter_12/panic_results",
+    "chapter_13/generic_type_traits_lifetimes",
+]
+
+[dependencies]

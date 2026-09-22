@@ -1,0 +1,16 @@
+pub mod p00_rat_maze_problem;
+pub mod p01_printing_all_solutions_n_queen_problem;
+pub mod p03_remove_invalid_parentheses;
+pub mod p04_sudoku_solver;
+pub mod p05_m_coloring_problem;
+pub mod p06_print_all_palindromic_partitions_string;
+pub mod p07_partition_equal_subset_sum;
+pub mod p10_find_shortest_safe_route_matrix;
+pub mod p11_combination_sum;
+pub mod p12_largest_number_k_swaps;
+pub mod p13_print_all_permutations_string;
+pub mod p14_path_greater_than_equal_to_k_length;
+pub mod p15_longest_possible_route_matrix_with_hurdles;
+pub mod p16_print_all_possible_paths_from_top_left_bottom_right_mxn_matrix;
+pub mod p17_partition_array_to_k_subsets;
+pub mod p18_find_k_th_permutation_sequence_first_n_natural_numbers;

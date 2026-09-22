@@ -185,14 +185,13 @@ fn result_examples() {
     println!("6. Chaining Results with and_then:\n");
 
     let result1: Result<i32, String> = Ok(5);
-    let result2 = result1
-        .and_then(|x| {
-            if x > 0 {
-                Ok(x * 2)
-            } else {
-                Err(String::from("Number must be positive"))
-            }
-        });
+    let result2 = result1.and_then(|x| {
+        if x > 0 {
+            Ok(x * 2)
+        } else {
+            Err(String::from("Number must be positive"))
+        }
+    });
     println!("Chained result: {:?}\n", result2);
 
     // Result in functions
@@ -272,10 +271,7 @@ fn error_handling_patterns() {
     // Pattern 4: Chain operations
     println!("Pattern 4: Chaining operations\n");
 
-    let result = divide(10, 2)
-        .map(|x| x + 5)
-        .map(|x| x * 2)
-        .unwrap_or(0);
+    let result = divide(10, 2).map(|x| x + 5).map(|x| x * 2).unwrap_or(0);
     println!("Chained result: {}", result);
 
     println!();
@@ -293,12 +289,7 @@ fn error_handling_patterns() {
     // Pattern 6: Multiple Results
     println!("Pattern 6: Handling multiple Results\n");
 
-    let results = vec![
-        divide(10, 2),
-        divide(15, 3),
-        divide(20, 0),
-        divide(9, 3),
-    ];
+    let results = vec![divide(10, 2), divide(15, 3), divide(20, 0), divide(9, 3)];
 
     for (i, result) in results.iter().enumerate() {
         match result {
@@ -365,7 +356,7 @@ fn read_config() -> Result<String, String> {
 /// Parses age and calculates next year's age
 /// Demonstrates chaining with ?
 fn calculate_age_next_year(age_str: &str) -> Result<u32, String> {
-    let age = parse_age(age_str)?;  // ? propagates error
+    let age = parse_age(age_str)?; // ? propagates error
     Ok(age + 1)
 }
 

@@ -35,12 +35,12 @@
 // Import from the library crate (lib.rs)
 // This makes all public items from lib.rs available
 use package_crates_module::{
+    Circle, // Re-exported from lib.rs
+    Rectangle,
     arithmetic,
     geometry, // Re-exported from lib.rs
     greetings,
     math,
-    Circle, // Re-exported from lib.rs
-    Rectangle,
 };
 
 fn main() {

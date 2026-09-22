@@ -24,15 +24,15 @@ enum Message {
 // This is similar to Rust's built-in Option<T> enum
 #[derive(Debug)]
 enum OptionCustom<T> {
-    Some(T),  // Variant that holds a value
-    None,     // Variant representing no value
+    Some(T), // Variant that holds a value
+    None,    // Variant representing no value
 }
 
 // Enum for Result handling
 #[derive(Debug)]
 enum ResultCustom<T, E> {
-    Ok(T),    // Success variant with a value
-    Err(E),   // Error variant with an error value
+    Ok(T),  // Success variant with a value
+    Err(E), // Error variant with an error value
 }
 
 // Coin enum for match examples
@@ -52,9 +52,14 @@ fn main() {
 
     let direction = Direction::North;
     println!("Direction: {:?}", direction);
-    
+
     // Using all Direction variants
-    let directions = vec![Direction::North, Direction::South, Direction::East, Direction::West];
+    let directions = vec![
+        Direction::North,
+        Direction::South,
+        Direction::East,
+        Direction::West,
+    ];
     for dir in &directions {
         println!("  {:?}", dir);
     }
@@ -133,7 +138,7 @@ fn main() {
             3 => println!("Three"),
             4 => println!("Four"),
             5 => println!("Five"),
-            _ => println!("Other number: {}", num),  // _ matches anything (catch-all)
+            _ => println!("Other number: {}", num), // _ matches anything (catch-all)
         }
     }
 
@@ -264,7 +269,7 @@ fn main() {
     // Using match (more verbose but handles all cases)
     match number {
         Some(n) => println!("Using match - Number: {}", n),
-        None => {},
+        None => {}
     }
 
     // Using if let (concise when you only care about one pattern)
@@ -333,7 +338,7 @@ fn main() {
     let day = 3;
 
     match day {
-        1 | 7 => println!("Weekend"),  // | means OR
+        1 | 7 => println!("Weekend"), // | means OR
         2..=6 => println!("Weekday"),
         _ => println!("Invalid day"),
     }

@@ -1,0 +1,10 @@
+pub mod p00_spirally_traversing_a_matrix;
+pub mod p01_search_a_2d_matrix;
+pub mod p02_median_in_a_row_wise_sorted_matrix;
+pub mod p03_row_with_max_1s;
+pub mod p04_sorted_matrix;
+pub mod p05_maximum_size_rectangle;
+pub mod p06_find_a_specific_pair_in_matrix;
+pub mod p07_rotate_by_90_degree_anti;
+pub mod p08_kth_element_in_matrix;
+pub mod p09_common_elements_in_all_rows_of_a_given_matrix;

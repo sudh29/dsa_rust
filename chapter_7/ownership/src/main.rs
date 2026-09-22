@@ -98,7 +98,7 @@ fn main() {
     // Strings are not Copy - they move
     let s11 = String::from("stack vs heap");
     let _s12 = s11; // ownership moved
-                    // println!("s11 = {}", s11);  // ERROR
+    // println!("s11 = {}", s11);  // ERROR
 
     println!("\n--- Cloning (Deep Copy) ---");
     // If you want a deep copy of heap data, use .clone()
