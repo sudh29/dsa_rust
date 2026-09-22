@@ -6,12 +6,12 @@ This section includes problems primarily solved using the **Trie (Prefix Tree)**
 
 | File | Pattern(s) |
 |------|------------|
-| [0_Construct_trie_from_scratch.py](0_Construct_trie_from_scratch.py) | Trie Construction / Prefix Tree |
-| [1_Shortest_Unique_prefix_for_every_word.py](1_Shortest_Unique_prefix_for_every_word.py) | Trie / Prefix Matching |
-| [2_Word_Break_Problem_Trie_solution.py](2_Word_Break_Problem_Trie_solution.py) | Trie / Backtracking / Memoization |
-| [3_Print_Anagrams_Together.py](3_Print_Anagrams_Together.py) | Hash Map / Sorting / Grouping |
-| [4_Phone_directory.py](4_Phone_directory.py) | Trie / Auto-Complete System |
-| [5_Unique_rows_boolean_matrix.py](5_Unique_rows_boolean_matrix.py) | Trie / Matrix Traversal / Bitwise Storage |
+| [p00_construct_trie_from_scratch.rs](p00_construct_trie_from_scratch.rs) | Trie Construction / Prefix Tree |
+| [p01_shortest_unique_prefix_for_every_word.rs](p01_shortest_unique_prefix_for_every_word.rs) | Trie / Prefix Matching |
+| [p02_word_break_problem_trie_solution.rs](p02_word_break_problem_trie_solution.rs) | Trie / Backtracking / Memoization |
+| [p03_print_anagrams_together.rs](p03_print_anagrams_together.rs) | Hash Map / Sorting / Grouping |
+| [p04_phone_directory.rs](p04_phone_directory.rs) | Trie / Auto-Complete System |
+| [p05_unique_rows_boolean_matrix.rs](p05_unique_rows_boolean_matrix.rs) | Trie / Matrix Traversal / Bitwise Storage |
 
 ---
 

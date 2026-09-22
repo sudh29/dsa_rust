@@ -2,19 +2,19 @@
 
 | File | Pattern(s) |
 |------|------------|
-| [0_Rat_maze_Problem.py](0_Rat_maze_Problem.py) | Backtracking / DFS on Grid |
-| [1_Printing_all_solutions_N-Queen_Problem.py](1_Printing_all_solutions_N-Queen_Problem.py) | Backtracking / Constraint Checking |
-| [3_Remove_Invalid_Parentheses.py](3_Remove_Invalid_Parentheses.py) | Backtracking / BFS (Optimized) |
-| [4_Sudoku_Solver.py](4_Sudoku_Solver.py) | Backtracking / Constraint Propagation |
-| [5_m_Coloring_Problem.py](5_m_Coloring_Problem.py) | Backtracking / Graph Coloring |
-| [6_Print_all_palindromic_partitions_string.py](6_Print_all_palindromic_partitions_string.py) | Backtracking / Palindrome Checking |
-| [7_Partition_Equal_Subset_Sum.py](7_Partition_Equal_Subset_Sum.py) | Backtracking / Subset Sum / DP (Alternative) |
-| [10_Find_shortest_safe_route_matrix.py](10_Find_shortest_safe_route_matrix.py) | Backtracking / DFS / Safety Check |
-| [11_Combination_Sum.py](11_Combination_Sum.py) | Backtracking / Recursive Choice |
-| [12_Largest_number_K_swaps.py](12_Largest_number_K_swaps.py) | Backtracking / Greedy Choices |
-| [13_Print_all_permutations_string.py](13_Print_all_permutations_string.py) | Backtracking / String Permutation |
-| [14_Path_greater_than_equal_to_k_length.py](14_Path_greater_than_equal_to_k_length.py) | Backtracking / DFS on Graph |
-| [15_Longest_Possible_Route_Matrix_with_Hurdles.py](15_Longest_Possible_Route_Matrix_with_Hurdles.py) | Backtracking / Grid Pathfinding |
-| [16_Print_all_possible_paths_from_top_left_bottom_right_mXn_matrix.py](16_Print_all_possible_paths_from_top_left_bottom_right_mXn_matrix.py) | Backtracking / Matrix Traversal |
-| [17_Partition_array_to_K_subsets.py](17_Partition_array_to_K_subsets.py) | Backtracking / K-Partitioning |
-| [18_Find_K-th_Permutation_Sequence_first_N_natural_numbers.py](18_Find_K-th_Permutation_Sequence_first_N_natural_numbers.py) | Backtracking / Factorial Number System |
+| [p00_rat_maze_problem.rs](p00_rat_maze_problem.rs) | Backtracking / DFS on Grid |
+| [p01_printing_all_solutions_n_queen_problem.rs](p01_printing_all_solutions_n_queen_problem.rs) | Backtracking / Constraint Checking |
+| [p03_remove_invalid_parentheses.rs](p03_remove_invalid_parentheses.rs) | Backtracking / BFS (Optimized) |
+| [p04_sudoku_solver.rs](p04_sudoku_solver.rs) | Backtracking / Constraint Propagation |
+| [p05_m_coloring_problem.rs](p05_m_coloring_problem.rs) | Backtracking / Graph Coloring |
+| [p06_print_all_palindromic_partitions_string.rs](p06_print_all_palindromic_partitions_string.rs) | Backtracking / Palindrome Checking |
+| [p07_partition_equal_subset_sum.rs](p07_partition_equal_subset_sum.rs) | Backtracking / Subset Sum / DP (Alternative) |
+| [p10_find_shortest_safe_route_matrix.rs](p10_find_shortest_safe_route_matrix.rs) | Backtracking / DFS / Safety Check |
+| [p11_combination_sum.rs](p11_combination_sum.rs) | Backtracking / Recursive Choice |
+| [p12_largest_number_k_swaps.rs](p12_largest_number_k_swaps.rs) | Backtracking / Greedy Choices |
+| [p13_print_all_permutations_string.rs](p13_print_all_permutations_string.rs) | Backtracking / String Permutation |
+| [p14_path_greater_than_equal_to_k_length.rs](p14_path_greater_than_equal_to_k_length.rs) | Backtracking / DFS on Graph |
+| [p15_longest_possible_route_matrix_with_hurdles.rs](p15_longest_possible_route_matrix_with_hurdles.rs) | Backtracking / Grid Pathfinding |
+| [p16_print_all_possible_paths_from_top_left_bottom_right_mxn_matrix.rs](p16_print_all_possible_paths_from_top_left_bottom_right_mxn_matrix.rs) | Backtracking / Matrix Traversal |
+| [p17_partition_array_to_k_subsets.rs](p17_partition_array_to_k_subsets.rs) | Backtracking / K-Partitioning |
+| [p18_find_k_th_permutation_sequence_first_n_natural_numbers.rs](p18_find_k_th_permutation_sequence_first_n_natural_numbers.rs) | Backtracking / Factorial Number System |

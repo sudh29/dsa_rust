@@ -2,23 +2,23 @@
 
 | File | Pattern(s) |
 |------|------------|
-| [0_Create_Graph_print.py](0_Create_Graph_print.py) | Graph Construction / Adjacency List |
-| [1_Create_Graph.py](1_Create_Graph.py) | Graph Construction / Edge List |
-| [2_Implement_BFS_algorithm.py](2_Implement_BFS_algorithm.py) | BFS / Queue / Graph Traversal |
-| [3_Implement_DFS_Algo.py](3_Implement_DFS_Algo.py) | DFS / Recursion / Stack |
-| [4_Detect_Cycle_Directed_Graph.py](4_Detect_Cycle_Directed_Graph.py) | DFS / Cycle Detection / Directed Graph |
-| [5_Detect_Cycle_UnDirected_Graph.py](5_Detect_Cycle_UnDirected_Graph.py) | DFS / Cycle Detection / Union-Find |
-| [6_Search_in_Maze.py](6_Search_in_Maze.py) | BFS / DFS / Matrix Graph |
-| [7_Minimum_Step_by_Knight.py](7_Minimum_Step_by_Knight.py) | BFS / Shortest Path |
-| [8_Flood_fill_algo.py](8_Flood_fill_algo.py) | DFS / BFS / Matrix Traversal |
-| [9_Clone_a_graph.py](9_Clone_a_graph.py) | DFS / BFS / Graph Cloning / HashMap |
-| [10_Making_wired_Connections.py](10_Making_wired_Connections.py) | Union-Find / Disjoint Set / Connectivity |
-| [12_Dijkstra_algo.py](12_Dijkstra_algo.py) | Dijkstra's Algorithm / Priority Queue / Shortest Path |
-| [13_Implement_Topological_Sort.py](13_Implement_Topological_Sort.py) | Topological Sort / Kahn's Algo / DFS |
-| [14_Minimum_time_taken_job_completed_Directed_Acyclic_Graph.py](14_Minimum_time_taken_job_completed_Directed_Acyclic_Graph.py) | Topological Sort / DAG Scheduling |
-| [16_Find_the_no_of_slands.py](16_Find_the_no_of_slands.py) | DFS / BFS / Connected Components |
-| [18_Implement_Kruskals_Algorithm.py](18_Implement_Kruskals_Algorithm.py) | Kruskal's Algorithm / Union-Find / MST |
-| [36_M-Colouring_Problem.py](36_M-Colouring_Problem.py) | Backtracking / Graph Coloring |
+| [p00_create_graph_print.rs](p00_create_graph_print.rs) | Graph Construction / Adjacency List |
+| [p01_create_graph.rs](p01_create_graph.rs) | Graph Construction / Edge List |
+| [p02_implement_bfs_algorithm.rs](p02_implement_bfs_algorithm.rs) | BFS / Queue / Graph Traversal |
+| [p03_implement_dfs_algo.rs](p03_implement_dfs_algo.rs) | DFS / Recursion / Stack |
+| [p04_detect_cycle_directed_graph.rs](p04_detect_cycle_directed_graph.rs) | DFS / Cycle Detection / Directed Graph |
+| [p05_detect_cycle_undirected_graph.rs](p05_detect_cycle_undirected_graph.rs) | DFS / Cycle Detection / Union-Find |
+| [p06_search_in_maze.rs](p06_search_in_maze.rs) | BFS / DFS / Matrix Graph |
+| [p07_minimum_step_by_knight.rs](p07_minimum_step_by_knight.rs) | BFS / Shortest Path |
+| [p08_flood_fill_algo.rs](p08_flood_fill_algo.rs) | DFS / BFS / Matrix Traversal |
+| [p09_clone_a_graph.rs](p09_clone_a_graph.rs) | DFS / BFS / Graph Cloning / HashMap |
+| [p10_making_wired_connections.rs](p10_making_wired_connections.rs) | Union-Find / Disjoint Set / Connectivity |
+| [p12_dijkstra_algo.rs](p12_dijkstra_algo.rs) | Dijkstra's Algorithm / Priority Queue / Shortest Path |
+| [p13_implement_topological_sort.rs](p13_implement_topological_sort.rs) | Topological Sort / Kahn's Algo / DFS |
+| [p14_minimum_time_taken_job_completed_dag.rs](p14_minimum_time_taken_job_completed_dag.rs) | Topological Sort / DAG Scheduling |
+| [p16_find_the_no_of_islands.rs](p16_find_the_no_of_islands.rs) | DFS / BFS / Connected Components |
+| [p18_implement_kruskals_algorithm.rs](p18_implement_kruskals_algorithm.rs) | Kruskal's Algorithm / Union-Find / MST |
+| [p36_m_colouring_problem.rs](p36_m_colouring_problem.rs) | Backtracking / Graph Coloring |
 
 ---
 

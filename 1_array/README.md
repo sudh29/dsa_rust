@@ -2,39 +2,39 @@
 
 | File | Pattern(s) |
 |------|------------|
-| [0_Reverse_the_array.py](0_Reverse_the_array.py) | Two Pointer / In-place Swapping |
-| [1_Find_max_min_element_array.py](1_Find_max_min_element_array.py) | Linear Scan |
-| [2_Kth_smallest_element.py](2_Kth_smallest_element.py) | Sorting / Heap / QuickSelect |
-| [3_Sort_an_array_of_0s,_1s_and_2s.py](3_Sort_an_array_of_0s,_1s_and_2s.py) | Dutch National Flag / Two Pointer |
-| [4_Move_all_negative_elements_to_end.py](4_Move_all_negative_elements_to_end.py) | Two Pointer / Partitioning |
-| [5_Union_of_two_arrays.py](5_Union_of_two_arrays.py) | Hashing / Set Operations |
-| [6_Cyclically_rotate_an_array_by_one.py](6_Cyclically_rotate_an_array_by_one.py) | Rotation Technique |
-| [7_Kadanes_Algorithm.py](7_Kadanes_Algorithm.py) | Kadane’s Algorithm / Dynamic Programming |
-| [8_Minimize_the_Heights_II.py](8_Minimize_the_Heights_II.py) | Greedy |
-| [9_Minimum_number_of_jumps.py](9_Minimum_number_of_jumps.py) | Greedy / Dynamic Programming |
-| [10_Find_the_Duplicate_Number.py](10_Find_the_Duplicate_Number.py) | Cycle Detection / Floyd’s Algorithm |
-| [11_Merge_Without_Extra_Space.py](11_Merge_Without_Extra_Space.py) | Two Pointer / Gap Method |
-| [12_Kadanes_Algorithm.py](7_Kadanes_Algorithm.py) | Kadane’s Algorithm / Dynamic Programming |
-| [13_Merge_Intervals.py](13_Merge_Intervals.py) | Sorting / Interval Merging |
-| [14_Next_Permutation.py](14_Next_Permutation.py) | Two Pointer / Permutation Logic |
-| [15_Count_Inversions.py](15_Count_Inversions.py) | Modified Merge Sort |
-| [16_Best_Time_to_Buy_and_Sell_Stock.py](16_Best_Time_to_Buy_and_Sell_Stock.py) | Greedy / One Pass |
-| [17_Count_pairs_with_given_sum.py](17_Count_pairs_with_given_sum.py) | Hash Map / Two Pointer |
-| [18_find_common_elements_In_3_sorted_arrays.py](18_find_common_elements_In_3_sorted_arrays.py) | Three Pointer Technique |
-| [19_Alternate_positive_and_negative_numbers.py](19_Alternate_positive_and_negative_numbers.py) | Two Pointer / Rearrangement |
-| [20_Subarray_with_0_sum.py](20_Subarray_with_0_sum.py) | Prefix Sum + Hash Map |
-| [21_Factorials_of_large_numbers.py](21_Factorials_of_large_numbers.py) | Math / Big Integer Simulation |
-| [22_Maximum_Product_Subarray.py](22_Maximum_Product_Subarray.py) | Kadane’s Variation / Dynamic Programming |
-| [23_Longest_consecutive_subsequence.py](23_Longest_consecutive_subsequence.py) | Hashing / Set |
-| [24_Majority_Element_II_k_n.py](24_Majority_Element_II_k_n.py) | Boyer-Moore Voting Algorithm |
-| [25_Buy_and_Sell_Stock_III.py](25_Buy_and_Sell_Stock_III.py) | Dynamic Programming |
-| [26_Array_Subset_of_another_array.py](26_Array_Subset_of_another_array.py) | Hash Map / Set Lookup |
-| [27_Triplet_Sum_in_Array.py](27_Triplet_Sum_in_Array.py) | Two Pointer / Sorting |
-| [28_Trapping_Rain_Water.py](28_Trapping_Rain_Water.py) | Two Pointer / Prefix & Suffix Max Arrays |
-| [29_Chocolate_Distribution_Problem.py](29_Chocolate_Distribution_Problem.py) | Sorting / Sliding Window |
-| [30_Minimum_Size_Subarray_Sum.py](30_Minimum_Size_Subarray_Sum.py) | Sliding Window |
-| [31_Three_way_partitioning.py](31_Three_way_partitioning.py) | Dutch National Flag / Partitioning |
-| [32_Minimum_swaps_and_K_together.py](32_Minimum_swaps_and_K_together.py) | Sliding Window |
-| [33_Form_a_palindrome.py](33_Form_a_palindrome.py) | Greedy / Two Pointer / DP |
-| [34_Find_the_median.py](34_Find_the_median.py) | Sorting / Median Logic |
-| [35_Median_of_2_Sorted_Arrays_of_Different_Sizes.py](35_Median_of_2_Sorted_Arrays_of_Different_Sizes.py) | Binary Search on Partitions |
+| [p00_reverse_the_array.rs](p00_reverse_the_array.rs) | Two Pointer / In-place Swapping |
+| [p01_find_max_min_element_array.rs](p01_find_max_min_element_array.rs) | Linear Scan |
+| [p02_kth_smallest_element.rs](p02_kth_smallest_element.rs) | Sorting / Heap / QuickSelect |
+| [p03_sort_an_array_of_0s_1s_and_2s.rs](p03_sort_an_array_of_0s_1s_and_2s.rs) | Dutch National Flag / Two Pointer |
+| [p04_move_all_negative_elements_to_end.rs](p04_move_all_negative_elements_to_end.rs) | Two Pointer / Partitioning |
+| [p05_union_of_two_arrays.rs](p05_union_of_two_arrays.rs) | Hashing / Set Operations |
+| [p06_cyclically_rotate_an_array_by_one.rs](p06_cyclically_rotate_an_array_by_one.rs) | Rotation Technique |
+| [p07_kadanes_algorithm.rs](p07_kadanes_algorithm.rs) | Kadane’s Algorithm / Dynamic Programming |
+| [p08_minimize_the_heights_ii.rs](p08_minimize_the_heights_ii.rs) | Greedy |
+| [p09_minimum_number_of_jumps.rs](p09_minimum_number_of_jumps.rs) | Greedy / Dynamic Programming |
+| [p10_find_the_duplicate_number.rs](p10_find_the_duplicate_number.rs) | Cycle Detection / Floyd’s Algorithm |
+| [p11_merge_without_extra_space.rs](p11_merge_without_extra_space.rs) | Two Pointer / Gap Method |
+| [12_Kadanes_Algorithm.rs](p07_kadanes_algorithm.rs) | Kadane’s Algorithm / Dynamic Programming |
+| [p13_merge_intervals.rs](p13_merge_intervals.rs) | Sorting / Interval Merging |
+| [p14_next_permutation.rs](p14_next_permutation.rs) | Two Pointer / Permutation Logic |
+| [p15_count_inversions.rs](p15_count_inversions.rs) | Modified Merge Sort |
+| [p16_best_time_to_buy_and_sell_stock.rs](p16_best_time_to_buy_and_sell_stock.rs) | Greedy / One Pass |
+| [p17_count_pairs_with_given_sum.rs](p17_count_pairs_with_given_sum.rs) | Hash Map / Two Pointer |
+| [p18_find_common_elements_in_3_sorted_arrays.rs](p18_find_common_elements_in_3_sorted_arrays.rs) | Three Pointer Technique |
+| [p19_alternate_positive_and_negative_numbers.rs](p19_alternate_positive_and_negative_numbers.rs) | Two Pointer / Rearrangement |
+| [p20_subarray_with_0_sum.rs](p20_subarray_with_0_sum.rs) | Prefix Sum + Hash Map |
+| [p21_factorials_of_large_numbers.rs](p21_factorials_of_large_numbers.rs) | Math / Big Integer Simulation |
+| [p22_maximum_product_subarray.rs](p22_maximum_product_subarray.rs) | Kadane’s Variation / Dynamic Programming |
+| [p23_longest_consecutive_subsequence.rs](p23_longest_consecutive_subsequence.rs) | Hashing / Set |
+| [p24_majority_element_ii_k_n.rs](p24_majority_element_ii_k_n.rs) | Boyer-Moore Voting Algorithm |
+| [p25_buy_and_sell_stock_iii.rs](p25_buy_and_sell_stock_iii.rs) | Dynamic Programming |
+| [p26_array_subset_of_another_array.rs](p26_array_subset_of_another_array.rs) | Hash Map / Set Lookup |
+| [p27_triplet_sum_in_array.rs](p27_triplet_sum_in_array.rs) | Two Pointer / Sorting |
+| [p28_trapping_rain_water.rs](p28_trapping_rain_water.rs) | Two Pointer / Prefix & Suffix Max Arrays |
+| [p29_chocolate_distribution_problem.rs](p29_chocolate_distribution_problem.rs) | Sorting / Sliding Window |
+| [p30_minimum_size_subarray_sum.rs](p30_minimum_size_subarray_sum.rs) | Sliding Window |
+| [p31_three_way_partitioning.rs](p31_three_way_partitioning.rs) | Dutch National Flag / Partitioning |
+| [p32_minimum_swaps_and_k_together.rs](p32_minimum_swaps_and_k_together.rs) | Sliding Window |
+| [p33_form_a_palindrome.rs](p33_form_a_palindrome.rs) | Greedy / Two Pointer / DP |
+| [p34_find_the_median.rs](p34_find_the_median.rs) | Sorting / Median Logic |
+| [p35_median_of_2_sorted_arrays_of_different_sizes.rs](p35_median_of_2_sorted_arrays_of_different_sizes.rs) | Binary Search on Partitions |

@@ -2,24 +2,24 @@
 
 | File | Pattern(s) |
 |------|------------|
-| [0_Implement_Maxheap_MinHeap_arrays_recursion.py](0_Implement_Maxheap_MinHeap_arrays_recursion.py) | Heap / Array Manipulation / Recursion |
-| [1_Sort_Array_using_heap_sort.py](1_Sort_Array_using_heap_sort.py) | Heap Sort / Sorting |
-| [2_Maximum_all_subarrays_size_k.py](2_Maximum_all_subarrays_size_k.py) | Heap / Sliding Window / Max Heap |
-| [3_k_largest_element_array.py](3_k_largest_element_array.py) | Heap / Min Heap |
-| [4_Kth_smallest_largest_element_unsorted_array.py](4_Kth_smallest_largest_element_unsorted_array.py) | Heap / QuickSelect / Min & Max Heap |
-| [5_Merge_k_Sorted_Arrays.py](5_Merge_k_Sorted_Arrays.py) | Min Heap / Priority Queue |
-| [6_Merge_2_Binary_Max_Heaps.py](6_Merge_2_Binary_Max_Heaps.py) | Heap / Array Merging |
-| [7_Kth_largest_sum_continuous_subarrays.py](7_Kth_largest_sum_continuous_subarrays.py) | Min Heap / Subarray Sum |
-| [8_Reorganize_String.py](8_Reorganize_String.py) | Max Heap / Greedy |
-| [9_Merge_K_sorted_linked_lists.py](9_Merge_K_sorted_linked_lists.py) | Min Heap / Linked List Merging |
-| [10_Smallest_range_in_K_lists.py](10_Smallest_range_in_K_lists.py) | Min Heap / Sliding Window |
-| [11_Median_stream_Integers.py](11_Median_stream_Integers.py) | Heap / Two Heaps (Min-Max) |
-| [12_Is_Binary_Tree_Heap.py](12_Is_Binary_Tree_Heap.py) | Tree Traversal / Heap Property Validation |
-| [13_Minimum_Cost_of_ropes.py](13_Minimum_Cost_of_ropes.py) | Greedy / Min Heap |
-| [14_Convert_BST_to_Min_Max_Heap.py](14_Convert_BST_to_Min_Max_Heap.py) | Tree Conversion / Heap Construction |
-| [15_Convert_Min_Heap_Max_Heap.py](15_Convert_Min_Heap_Max_Heap.py) | Heap Construction / Reordering |
-| [16_Rearrange_characters.py](16_Rearrange_characters.py) | Max Heap / Greedy |
-| [17_Minimum_sum.py](17_Minimum_sum.py) | Min Heap / Greedy |
+| [p00_implement_maxheap_minheap_arrays_recursion.rs](p00_implement_maxheap_minheap_arrays_recursion.rs) | Heap / Array Manipulation / Recursion |
+| [p01_sort_array_using_heap_sort.rs](p01_sort_array_using_heap_sort.rs) | Heap Sort / Sorting |
+| [p02_maximum_all_subarrays_size_k.rs](p02_maximum_all_subarrays_size_k.rs) | Heap / Sliding Window / Max Heap |
+| [p03_k_largest_element_array.rs](p03_k_largest_element_array.rs) | Heap / Min Heap |
+| [p04_kth_smallest_largest_element_unsorted_array.rs](p04_kth_smallest_largest_element_unsorted_array.rs) | Heap / QuickSelect / Min & Max Heap |
+| [p05_merge_k_sorted_arrays.rs](p05_merge_k_sorted_arrays.rs) | Min Heap / Priority Queue |
+| [p06_merge_2_binary_max_heaps.rs](p06_merge_2_binary_max_heaps.rs) | Heap / Array Merging |
+| [p07_kth_largest_sum_continuous_subarrays.rs](p07_kth_largest_sum_continuous_subarrays.rs) | Min Heap / Subarray Sum |
+| [p08_reorganize_string.rs](p08_reorganize_string.rs) | Max Heap / Greedy |
+| [p09_merge_k_sorted_linked_lists.rs](p09_merge_k_sorted_linked_lists.rs) | Min Heap / Linked List Merging |
+| [p10_smallest_range_in_k_lists.rs](p10_smallest_range_in_k_lists.rs) | Min Heap / Sliding Window |
+| [p11_median_stream_integers.rs](p11_median_stream_integers.rs) | Heap / Two Heaps (Min-Max) |
+| [p12_is_binary_tree_heap.rs](p12_is_binary_tree_heap.rs) | Tree Traversal / Heap Property Validation |
+| [p13_minimum_cost_of_ropes.rs](p13_minimum_cost_of_ropes.rs) | Greedy / Min Heap |
+| [p14_convert_bst_to_min_max_heap.rs](p14_convert_bst_to_min_max_heap.rs) | Tree Conversion / Heap Construction |
+| [p15_convert_min_heap_max_heap.rs](p15_convert_min_heap_max_heap.rs) | Heap Construction / Reordering |
+| [p16_rearrange_characters.rs](p16_rearrange_characters.rs) | Max Heap / Greedy |
+| [p17_minimum_sum.rs](p17_minimum_sum.rs) | Min Heap / Greedy |
 
 ---
 
