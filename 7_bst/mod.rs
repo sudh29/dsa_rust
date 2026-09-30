@@ -20,3 +20,5 @@ pub mod p18_check_preorder_valid_not;
 pub mod p19_check_whether_bst_contains_dead_end;
 pub mod p20_largest_bst_binary_tree;
 pub mod p21_flatten_bst_sorted_list;
+pub mod p22_avl_tree;
+pub mod p23_insert_del;

@@ -19,6 +19,13 @@
 | [p16_find_the_no_of_islands.rs](p16_find_the_no_of_islands.rs) | DFS / BFS / Connected Components |
 | [p18_implement_kruskals_algorithm.rs](p18_implement_kruskals_algorithm.rs) | Kruskal's Algorithm / Union-Find / MST |
 | [p36_m_colouring_problem.rs](p36_m_colouring_problem.rs) | Backtracking / Graph Coloring |
+| [p40_bfs_dfs_list.rs](p40_bfs_dfs_list.rs) | Adjacency List BFS / DFS |
+| [p41_bfs_mat.rs](p41_bfs_mat.rs) | Adjacency Matrix BFS |
+| [p42_dfs_bfs_stack.rs](p42_dfs_bfs_stack.rs) | Iterative Stack DFS / Queue BFS |
+| [p43_graph_dict.rs](p43_graph_dict.rs) | HashMap Adjacency Representation |
+| [p44_shortestpath2_floyd.rs](p44_shortestpath2_floyd.rs) | Floyd-Warshall All-Pairs Shortest Path |
+| [p45_shortestpath_dijkstra.rs](p45_shortestpath_dijkstra.rs) | Alternative Dijkstra's Shortest Path |
+| [p46_topological_sort.rs](p46_topological_sort.rs) | DFS-based Topological Sort |
 
 ---
 

@@ -16,3 +16,5 @@ pub mod p14_convert_bst_to_min_max_heap;
 pub mod p15_convert_min_heap_max_heap;
 pub mod p16_rearrange_characters;
 pub mod p17_minimum_sum;
+pub mod p18_max_heap;
+pub mod p19_min_heap;

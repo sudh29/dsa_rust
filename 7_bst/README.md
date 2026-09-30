@@ -14,7 +14,7 @@
 | [p09_convert_normal_bst_into_balanced_bst.rs](p09_convert_normal_bst_into_balanced_bst.rs) | Inorder + Rebuild Balanced BST |
 | [p10_merge_two_bst.rs](p10_merge_two_bst.rs) | Inorder + Merge + Build BST |
 | [p11_find_kth_largest_element_bst.rs](p11_find_kth_largest_element_bst.rs) | Reverse Inorder Traversal |
-| [12_Find_Kth_smallest_element_BST.rs](12_Find_Kth_smallest_element_BST.rs) | Inorder Traversal |
+| [p12_find_kth_smallest_element_bst.rs](p12_find_kth_smallest_element_bst.rs) | Inorder Traversal |
 | [p13_count_pairs_from_2_bst_sum_equal_x.rs](p13_count_pairs_from_2_bst_sum_equal_x.rs) | Inorder + Two Pointer |
 | [p14_find_the_median_bst.rs](p14_find_the_median_bst.rs) | Inorder Traversal / Morris Traversal |
 | [p15_count_bst_nodes_lie_range.rs](p15_count_bst_nodes_lie_range.rs) | Range-Based DFS |
@@ -24,3 +24,5 @@
 | [p19_check_whether_bst_contains_dead_end.rs](p19_check_whether_bst_contains_dead_end.rs) | BST Leaf Conditions + Range Tracking |
 | [p20_largest_bst_binary_tree.rs](p20_largest_bst_binary_tree.rs) | Postorder DFS / Subtree Validation |
 | [p21_flatten_bst_sorted_list.rs](p21_flatten_bst_sorted_list.rs) | Inorder Traversal / DLL Flattening |
+| [p22_avl_tree.rs](p22_avl_tree.rs) | Self-Balancing AVL Tree (Rotations, Insert, Delete) |
+| [p23_insert_del.rs](p23_insert_del.rs) | BST Insertion and Deletion Operations |
