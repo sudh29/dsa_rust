@@ -24,13 +24,13 @@ fn print_help() {
     println!("============================================================");
     println!("       🦀 DSA & Rust Learning Workspace CLI Runner 🦀       ");
     println!("============================================================");
-    println!("A 100% Safe, production-grade Rust workspace featuring 395+");
-    println!("Data Structures & Algorithms and 13 educational chapters.\n");
+    println!("A 100% Safe, production-grade Rust workspace featuring 370+");
+    println!("Data Structures & Algorithms and 13 educational chapters in `chapters/`.\n");
     println!("USAGE:");
     println!("    cargo run -- <COMMAND>\n");
     println!("COMMANDS:");
     println!("    demo          Run live demonstrations of flagship algorithms");
-    println!("    categories    List all 20 algorithm categories & problem counts");
+    println!("    categories    List all 16 algorithm categories & problem counts");
     println!("    help          Display this help documentation\n");
     println!("COMMON WORKFLOWS:");
     println!("    cargo test --workspace      # Run all 410+ unit & integration tests");
