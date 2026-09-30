@@ -140,8 +140,7 @@ fn takes_ownership(s: String) {
 
 // Returns ownership of a new String
 fn gives_ownership() -> String {
-    let s = String::from("this is given");
-    s // s is moved out and returned
+    String::from("this is given") // s is moved out and returned
 }
 
 // Takes ownership and returns it back
@@ -231,7 +230,7 @@ fn first_word_flexible(s: &str) -> &str {
             return &s[0..i];
         }
     }
-    &s[..]
+    s
 }
 
 // Function to demonstrate array slicing

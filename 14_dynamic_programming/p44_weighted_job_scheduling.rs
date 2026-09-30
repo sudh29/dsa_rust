@@ -6,7 +6,7 @@ pub struct Job {
 }
 
 pub fn job_scheduling(mut jobs: Vec<Job>) -> (usize, i32) {
-    jobs.sort_by(|a, b| b.profit.cmp(&a.profit));
+    jobs.sort_by_key(|a| std::cmp::Reverse(a.profit));
     let max_deadline = jobs.iter().map(|j| j.deadline).max().unwrap_or(0);
     let mut slot = vec![-1; max_deadline + 1];
     let mut count = 0;

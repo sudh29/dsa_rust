@@ -3,8 +3,7 @@ pub fn n_queens(n: usize) -> Vec<Vec<usize>> {
     let mut board = vec![0; n];
 
     fn is_safe(board: &[usize], row: usize, col: usize) -> bool {
-        for prev_col in 0..col {
-            let prev_row = board[prev_col];
+        for (prev_col, &prev_row) in board.iter().enumerate().take(col) {
             if prev_row == row || prev_row.abs_diff(row) == col - prev_col {
                 return false;
             }

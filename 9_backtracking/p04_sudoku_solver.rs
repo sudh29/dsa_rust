@@ -1,7 +1,10 @@
 pub fn solve_sudoku(grid: &mut [[u8; 9]; 9]) -> bool {
     fn is_valid(grid: &[[u8; 9]; 9], r: usize, c: usize, num: u8) -> bool {
-        for i in 0..9 {
-            if grid[r][i] == num || grid[i][c] == num {
+        if grid[r].contains(&num) {
+            return false;
+        }
+        for row in grid.iter().take(9) {
+            if row[c] == num {
                 return false;
             }
         }

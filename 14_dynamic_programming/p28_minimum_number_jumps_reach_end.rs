@@ -9,8 +9,8 @@ pub fn min_jumps(arr: &[i32]) -> i32 {
     let mut jumps = 0;
     let mut current_end = 0;
     let mut farthest = 0;
-    for i in 0..n - 1 {
-        farthest = farthest.max(i + arr[i] as usize);
+    for (i, &val) in arr.iter().enumerate().take(n - 1) {
+        farthest = farthest.max(i + val as usize);
         if i == current_end {
             jumps += 1;
             current_end = farthest;

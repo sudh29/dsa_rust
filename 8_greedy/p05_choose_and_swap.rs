@@ -10,8 +10,8 @@ pub fn choose_and_swap(s: &str) -> String {
     for (i, c) in s.chars().enumerate() {
         let c_idx = (c as u8 - b'a') as usize;
         let mut smaller = None;
-        for j in 0..c_idx {
-            if first_idx[j] > i as isize {
+        for (j, &pos) in first_idx.iter().enumerate().take(c_idx) {
+            if pos > i as isize {
                 smaller = Some((b'a' + j as u8) as char);
                 break;
             }

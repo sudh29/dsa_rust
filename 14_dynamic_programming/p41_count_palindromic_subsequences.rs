@@ -4,8 +4,8 @@ pub fn count_ps(s: &str) -> i64 {
     let b = s.as_bytes();
     let n = b.len();
     let mut dp = vec![vec![0i64; n]; n];
-    for i in 0..n {
-        dp[i][i] = 1;
+    for (i, row) in dp.iter_mut().enumerate() {
+        row[i] = 1;
     }
     for len in 2..=n {
         for i in 0..=(n - len) {

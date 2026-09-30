@@ -266,7 +266,7 @@ fn hashmap_examples() {
     println!("HashMap::new(): {:?}", map1);
 
     // Method 2: Using collect from tuples
-    let pairs = vec![("one", 1), ("two", 2), ("three", 3)];
+    let pairs = [("one", 1), ("two", 2), ("three", 3)];
     let map2: HashMap<&str, i32> = pairs.iter().cloned().collect();
     println!("From tuples: {:?}\n", map2);
 

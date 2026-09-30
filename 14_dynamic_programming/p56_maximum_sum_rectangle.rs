@@ -8,9 +8,9 @@ pub fn maximum_sum_rectangle(mat: &[Vec<i32>]) -> i32 {
 
     for top in 0..r {
         let mut temp = vec![0; c];
-        for bottom in top..r {
-            for col in 0..c {
-                temp[col] += mat[bottom][col];
+        for row in mat.iter().skip(top) {
+            for (t, &val) in temp.iter_mut().zip(row.iter()) {
+                *t += val;
             }
             // Kadane on temp
             let mut curr = temp[0];

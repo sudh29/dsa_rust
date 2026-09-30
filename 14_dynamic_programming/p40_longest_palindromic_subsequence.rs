@@ -2,8 +2,8 @@ pub fn longest_palin_subseq(s: &str) -> usize {
     let b = s.as_bytes();
     let n = b.len();
     let mut dp = vec![vec![0; n]; n];
-    for i in 0..n {
-        dp[i][i] = 1;
+    for (i, row) in dp.iter_mut().enumerate() {
+        row[i] = 1;
     }
     for len in 2..=n {
         for i in 0..=(n - len) {

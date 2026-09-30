@@ -7,11 +7,8 @@ pub struct KStacks {
 
 impl KStacks {
     pub fn new(k: usize, n: usize) -> Self {
-        let mut next = vec![0; n];
-        for i in 0..n - 1 {
-            next[i] = (i + 1) as isize;
-        }
-        next[n - 1] = -1;
+        let mut next: Vec<isize> = (1..n as isize).collect();
+        next.push(-1);
 
         KStacks {
             arr: vec![0; n],

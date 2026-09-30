@@ -6,9 +6,9 @@ pub fn all_possible_strings(s: &str) -> Vec<String> {
 
     for i in 1..total {
         let mut sub = String::new();
-        for j in 0..n {
+        for (j, &ch) in chars.iter().enumerate() {
             if (i & (1 << j)) != 0 {
-                sub.push(chars[j]);
+                sub.push(ch);
             }
         }
         res.push(sub);

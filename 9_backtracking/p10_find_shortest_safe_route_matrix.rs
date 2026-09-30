@@ -8,9 +8,9 @@ pub fn find_shortest_path(mat: &[Vec<i32>]) -> i32 {
     let c = mat[0].len();
     let mut safe = mat.to_vec();
 
-    for i in 0..r {
-        for j in 0..c {
-            if mat[i][j] == 0 {
+    for (i, row) in mat.iter().enumerate() {
+        for (j, &val) in row.iter().enumerate() {
+            if val == 0 {
                 let dirs = [(-1, 0), (1, 0), (0, -1), (0, 1)];
                 for (dr, dc) in dirs {
                     let ni = i as isize + dr;

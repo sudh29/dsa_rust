@@ -11,11 +11,11 @@ pub fn min_jumps(arr: &[i32]) -> i32 {
     let mut step = arr[0] as usize;
     let mut jump = 1;
 
-    for i in 1..n {
+    for (i, &val) in arr.iter().enumerate().skip(1) {
         if i == n - 1 {
             return jump;
         }
-        max_reach = max_reach.max(i + arr[i] as usize);
+        max_reach = max_reach.max(i + val as usize);
         step -= 1;
         if step == 0 {
             jump += 1;

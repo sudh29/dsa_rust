@@ -7,14 +7,12 @@ pub fn find_min_insertions(s: &str) -> usize {
     let mut dp = vec![vec![0; n]; n];
 
     for gap in 1..n {
-        let mut l = 0;
-        for h in gap..n {
+        for (l, h) in (gap..n).enumerate() {
             if bytes[l] == bytes[h] {
                 dp[l][h] = dp[l + 1][h - 1];
             } else {
                 dp[l][h] = dp[l][h - 1].min(dp[l + 1][h]) + 1;
             }
-            l += 1;
         }
     }
     dp[0][n - 1]

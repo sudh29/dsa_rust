@@ -1,3 +1,4 @@
+#[allow(clippy::needless_range_loop)]
 pub fn rotate_by_90_anti(mat: &mut [Vec<i32>]) {
     let n = mat.len();
     for i in 0..n {

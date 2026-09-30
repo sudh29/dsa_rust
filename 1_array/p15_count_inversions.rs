@@ -26,9 +26,7 @@ pub fn inversion_count(arr: &mut [i64]) -> i64 {
             j += 1;
             k += 1;
         }
-        for idx in left..=right {
-            arr[idx] = temp[idx];
-        }
+        arr[left..=right].copy_from_slice(&temp[left..=right]);
         inv_count
     }
 

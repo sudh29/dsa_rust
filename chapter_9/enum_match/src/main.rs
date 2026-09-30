@@ -267,9 +267,8 @@ fn main() {
     let number = Some(5);
 
     // Using match (more verbose but handles all cases)
-    match number {
-        Some(n) => println!("Using match - Number: {}", n),
-        None => {}
+    if let Some(n) = number {
+        println!("Using match - Number: {}", n)
     }
 
     // Using if let (concise when you only care about one pattern)
@@ -357,9 +356,8 @@ fn main() {
 
     // Using _ to ignore specific values
     let point3d = (1, 2, 3);
-    match point3d {
-        (x, _, z) => println!("x={}, z={} (ignored y)", x, z),
-    }
+    let (x, _, z) = point3d;
+    println!("x={}, z={} (ignored y)", x, z);
 
     println!();
 
