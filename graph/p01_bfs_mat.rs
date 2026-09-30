@@ -28,8 +28,8 @@ impl MatrixGraph {
 
         while let Some(u) = queue.pop_front() {
             path.push(u);
-            for v in 0..self.size {
-                if self.matrix[u][v] == 1 && !visited[v] {
+            for (v, &connected) in self.matrix[u].iter().enumerate() {
+                if connected == 1 && !visited[v] {
                     visited[v] = true;
                     queue.push_back(v);
                 }

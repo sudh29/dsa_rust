@@ -13,11 +13,11 @@ fn main() {
     };
     println!("Value of a (block without semicolon): {}", a);
 
-    let b = {
+    {
         let x = 3;
         let _ = x + 2;
     }; // semicolon → this is a statement, block returns ()
-    println!("Value of b (block with semicolon): {:?}", b);
+    println!("Value of b (block with semicolon): {:?}", ());
 
     println!("\n--- Function with implicit return ---");
     let five = give_five();

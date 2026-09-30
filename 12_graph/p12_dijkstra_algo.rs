@@ -19,6 +19,19 @@ impl PartialOrd for State {
     }
 }
 
+/// Computes single-source shortest paths using Dijkstra's algorithm with a min-heap priority queue.
+///
+/// # Complexity
+/// - Time Complexity: $O((V + E) \log V)$
+/// - Space Complexity: $O(V)$ for distance table and priority queue
+///
+/// # Examples
+/// ```
+/// use dsa_rust::graph::p12_dijkstra_algo::dijkstra;
+///
+/// let adj = vec![vec![(1, 9)], vec![(0, 9)]];
+/// assert_eq!(dijkstra(2, &adj, 0), vec![0, 9]);
+/// ```
 pub fn dijkstra(v: usize, adj: &[Vec<(usize, i32)>], s: usize) -> Vec<i32> {
     let mut dist = vec![i32::MAX; v];
     let mut heap = BinaryHeap::new();
@@ -62,5 +75,9 @@ mod tests {
             vec![(1, 2), (0, 6)],
         ];
         assert_eq!(dijkstra(3, &adj2, 2), vec![3, 2, 0]);
+
+        // Disconnected node
+        let adj_disc = vec![vec![], vec![]];
+        assert_eq!(dijkstra(2, &adj_disc, 0), vec![0, i32::MAX]);
     }
 }

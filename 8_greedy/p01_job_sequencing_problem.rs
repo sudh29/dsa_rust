@@ -4,7 +4,7 @@ pub fn job_scheduling(deadlines: &[i32], profits: &[i32]) -> (usize, i32) {
         .copied()
         .zip(profits.iter().copied())
         .collect();
-    jobs.sort_by(|a, b| b.1.cmp(&a.1)); // highest profit first
+    jobs.sort_by_key(|&(_, p)| std::cmp::Reverse(p)); // highest profit first
 
     let max_deadline = deadlines.iter().copied().max().unwrap_or(0) as usize;
     let mut slot = vec![false; max_deadline + 1];

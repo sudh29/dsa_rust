@@ -6,11 +6,11 @@ pub fn egg_drop(n: usize, k: usize) -> usize {
         return k;
     }
     let mut dp = vec![vec![0; k + 1]; n + 1];
-    for i in 1..=n {
-        dp[i][1] = 1;
+    for row in dp.iter_mut().take(n + 1).skip(1) {
+        row[1] = 1;
     }
-    for j in 1..=k {
-        dp[1][j] = j;
+    for (j, val) in dp[1].iter_mut().enumerate().take(k + 1).skip(1) {
+        *val = j;
     }
     for i in 2..=n {
         for j in 2..=k {

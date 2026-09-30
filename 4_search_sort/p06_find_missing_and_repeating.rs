@@ -7,10 +7,10 @@ pub fn find_two_element(arr: &[i32]) -> (i32, i32) {
     for &x in arr {
         counts[x as usize] += 1;
     }
-    for i in 1..=n {
-        if counts[i] == 2 {
+    for (i, &count) in counts.iter().enumerate().skip(1) {
+        if count == 2 {
             repeating = i as i32;
-        } else if counts[i] == 0 {
+        } else if count == 0 {
             missing = i as i32;
         }
     }

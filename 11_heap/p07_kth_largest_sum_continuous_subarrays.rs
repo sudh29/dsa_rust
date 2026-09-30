@@ -7,8 +7,8 @@ pub fn kth_largest_subarray_sum(arr: &[i32], k: usize) -> i32 {
 
     for i in 0..n {
         let mut sum = 0;
-        for j in i..n {
-            sum += arr[j];
+        for &x in &arr[i..] {
+            sum += x;
             heap.push(Reverse(sum));
             if heap.len() > k {
                 heap.pop();

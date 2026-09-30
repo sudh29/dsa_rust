@@ -10,12 +10,8 @@ pub fn find_maximum_num(s: &str, k: usize) -> String {
         if k == 0 || idx == chars.len() {
             return;
         }
-        let mut max_char = chars[idx];
-        for i in idx + 1..chars.len() {
-            if chars[i] > max_char {
-                max_char = chars[i];
-            }
-        }
+        let max_char = chars[idx..].iter().copied().max().unwrap_or(chars[idx]);
+
         if max_char != chars[idx] {
             for i in (idx + 1..chars.len()).rev() {
                 if chars[i] == max_char {

@@ -1,5 +1,5 @@
 pub fn sort_by_set_bit_count(arr: &mut [i32]) {
-    arr.sort_by(|&a, &b| b.count_ones().cmp(&a.count_ones()));
+    arr.sort_by_key(|&x| std::cmp::Reverse(x.count_ones()));
 }
 
 #[cfg(test)]

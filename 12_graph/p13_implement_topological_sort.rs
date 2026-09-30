@@ -2,14 +2,14 @@ use std::collections::VecDeque;
 
 pub fn topo_sort(v: usize, adj: &[Vec<usize>]) -> Vec<usize> {
     let mut in_degree = vec![0; v];
-    for u in 0..v {
-        for &neighbor in &adj[u] {
+    for neighbors in adj.iter().take(v) {
+        for &neighbor in neighbors {
             in_degree[neighbor] += 1;
         }
     }
     let mut q = VecDeque::new();
-    for i in 0..v {
-        if in_degree[i] == 0 {
+    for (i, &deg) in in_degree.iter().enumerate().take(v) {
+        if deg == 0 {
             q.push_back(i);
         }
     }

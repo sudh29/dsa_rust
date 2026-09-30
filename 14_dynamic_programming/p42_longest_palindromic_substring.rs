@@ -7,8 +7,8 @@ pub fn longest_palindrome(s: &str) -> String {
     let mut start = 0;
     let mut max_len = 1;
     let mut dp = vec![vec![false; n]; n];
-    for i in 0..n {
-        dp[i][i] = true;
+    for (i, row) in dp.iter_mut().enumerate() {
+        row[i] = true;
     }
     for i in 0..n - 1 {
         if b[i] == b[i + 1] {

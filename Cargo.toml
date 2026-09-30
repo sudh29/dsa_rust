@@ -23,3 +23,7 @@ members = [
 ]
 
 [dependencies]
+
+[[bench]]
+name = "dsa_benchmarks"
+harness = false

@@ -1,3 +1,8 @@
+/// Computes the Longest Proper Prefix which is also Suffix (LPS) array for KMP matching.
+///
+/// # Complexity
+/// - Time Complexity: $O(M)$ where $M$ is the pattern length
+/// - Space Complexity: $O(M)$
 pub fn compute_lps(pattern: &str) -> Vec<usize> {
     let b = pattern.as_bytes();
     let n = b.len();
@@ -20,6 +25,19 @@ pub fn compute_lps(pattern: &str) -> Vec<usize> {
     lps
 }
 
+/// Searches for all starting indices of `pattern` in `text` using Knuth-Morris-Pratt (KMP).
+///
+/// # Complexity
+/// - Time Complexity: $O(N + M)$
+/// - Space Complexity: $O(M)$ auxiliary space for LPS table
+///
+/// # Examples
+/// ```
+/// use dsa_rust::string::p18_kmp_algo::kmp_search;
+///
+/// let matches = kmp_search("ABABCABAB", "ABABDABACDABABCABAB");
+/// assert_eq!(matches, vec![10]);
+/// ```
 pub fn kmp_search(pattern: &str, text: &str) -> Vec<usize> {
     let mut matches = Vec::new();
     let p = pattern.as_bytes();
@@ -58,5 +76,8 @@ mod tests {
     #[test]
     fn test_kmp() {
         assert_eq!(kmp_search("ABABCABAB", "ABABDABACDABABCABAB"), vec![10]);
+        assert_eq!(kmp_search("A", "AAAAA"), vec![0, 1, 2, 3, 4]);
+        assert!(kmp_search("NOTFOUND", "TESTSTRING").is_empty());
+        assert!(kmp_search("", "TEXT").is_empty());
     }
 }

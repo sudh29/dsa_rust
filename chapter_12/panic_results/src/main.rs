@@ -1,3 +1,5 @@
+#![allow(clippy::unnecessary_literal_unwrap)]
+
 fn main() {
     println!("=== Rust Error Handling: Panic and Result ===\n");
 
@@ -289,7 +291,7 @@ fn error_handling_patterns() {
     // Pattern 6: Multiple Results
     println!("Pattern 6: Handling multiple Results\n");
 
-    let results = vec![divide(10, 2), divide(15, 3), divide(20, 0), divide(9, 3)];
+    let results = [divide(10, 2), divide(15, 3), divide(20, 0), divide(9, 3)];
 
     for (i, result) in results.iter().enumerate() {
         match result {
@@ -332,7 +334,7 @@ fn divide(a: i32, b: i32) -> Result<i32, String> {
 fn parse_age(s: &str) -> Result<u32, String> {
     match s.parse::<i32>() {
         Ok(num) => {
-            if num >= 0 && num <= 150 {
+            if (0..=150).contains(&num) {
                 Ok(num as u32)
             } else {
                 Err(String::from("Age must be between 0 and 150"))
