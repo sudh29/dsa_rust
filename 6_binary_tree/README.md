@@ -37,6 +37,12 @@
 | [p32_kth_ancestor_node_binary_tree.rs](p32_kth_ancestor_node_binary_tree.rs) | DFS / Backtracking |
 | [p33_find_all_duplicate_subtrees_binary_tree.rs](p33_find_all_duplicate_subtrees_binary_tree.rs) | DFS / Subtree Serialization |
 | [p34_tree_isomorphism_problem.rs](p34_tree_isomorphism_problem.rs) | Recursion / Tree Comparison |
+| [p35_in_pre_post_order.rs](p35_in_pre_post_order.rs) | Inorder, Preorder, and Postorder Traversals |
+| [p36_reverse_print.rs](p36_reverse_print.rs) | Reverse Inorder Traversal |
+| [p37_max_element.rs](p37_max_element.rs) | Find Maximum Element in Binary Tree |
+| [p38_max_sum_level.rs](p38_max_sum_level.rs) | Maximum Level Sum (Iterative BFS Queue) |
+| [p39_max_sum_level_rec.rs](p39_max_sum_level_rec.rs) | Maximum Level Sum (Recursive DFS) |
+| [p40_search_data.rs](p40_search_data.rs) | Search Target Value in Binary Tree |
 
 
 In a tree structure, Depth First Search (DFS) and Breadth First Search (BFS) algorithms are used to traverse the nodes. Here's how they work:

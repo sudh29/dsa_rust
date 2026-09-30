@@ -28,3 +28,9 @@
 | [p27_arithmetic_number.rs](p27_arithmetic_number.rs) | Math |
 | [p28_smallest_factorial_number.rs](p28_smallest_factorial_number.rs) | Binary Search / Factorial Count |
 | [p33_count_inversions.rs](p33_count_inversions.rs) | Modified Merge Sort |
+| [p34_bubble_sort.rs](p34_bubble_sort.rs) | Generic Bubble Sort (<T: Ord>) |
+| [p35_selection_sort.rs](p35_selection_sort.rs) | Generic Selection Sort (<T: Ord>) |
+| [p36_insertion_sort.rs](p36_insertion_sort.rs) | Generic Insertion Sort (<T: Ord + Copy>) |
+| [p37_merge_sort.rs](p37_merge_sort.rs) | Generic Merge Sort (<T: Ord + Copy>) |
+| [p38_quick_sort.rs](p38_quick_sort.rs) | Generic In-Place QuickSort (<T: Ord>) |
+| [p39_heap_sort.rs](p39_heap_sort.rs) | Generic In-Place HeapSort (<T: Ord>) |

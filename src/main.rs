@@ -24,13 +24,13 @@ fn print_help() {
     println!("============================================================");
     println!("       🦀 DSA & Rust Learning Workspace CLI Runner 🦀       ");
     println!("============================================================");
-    println!("A 100% Safe, production-grade Rust workspace featuring 395+");
-    println!("Data Structures & Algorithms and 13 educational chapters.\n");
+    println!("A 100% Safe, production-grade Rust workspace featuring 370+");
+    println!("Data Structures & Algorithms and 13 educational chapters in `chapters/`.\n");
     println!("USAGE:");
     println!("    cargo run -- <COMMAND>\n");
     println!("COMMANDS:");
     println!("    demo          Run live demonstrations of flagship algorithms");
-    println!("    categories    List all 20 algorithm categories & problem counts");
+    println!("    categories    List all 16 algorithm categories & problem counts");
     println!("    help          Display this help documentation\n");
     println!("COMMON WORKFLOWS:");
     println!("    cargo test --workspace      # Run all 410+ unit & integration tests");
@@ -55,8 +55,8 @@ fn list_categories() {
         ("3_string", 35, "KMP, Rabin-Karp, Boyer-Moore, Palindromes"),
         (
             "4_search_sort",
-            26,
-            "Binary search, pivot search, inversion count",
+            32,
+            "Binary search, pivot search, 6 generic sorting algorithms",
         ),
         (
             "5_linklist",
@@ -65,10 +65,14 @@ fn list_categories() {
         ),
         (
             "6_binary_tree",
-            35,
-            "Traversals, views, LCA, diameter, reconstruction",
+            41,
+            "Traversals, views, LCA, diameter, level sums",
         ),
-        ("7_bst", 22, "BST search, insertion, deletion, balancing"),
+        (
+            "7_bst",
+            24,
+            "BST search, insertion, deletion, AVL balancing",
+        ),
         (
             "8_greedy",
             27,
@@ -76,19 +80,23 @@ fn list_categories() {
         ),
         (
             "9_backtracking",
-            16,
-            "N-Queens, Sudoku, Rat in Maze, permutations",
+            22,
+            "N-Queens, Sudoku, Rat in Maze, Tower of Hanoi",
         ),
         (
             "10_stack_queues",
             15,
             "Monotonic stack, min stack O(1), k-stacks",
         ),
-        ("11_heap", 18, "Min/Max heap, running median, k-way merge"),
+        (
+            "11_heap",
+            20,
+            "Min/Max heap structs, running median, k-way merge",
+        ),
         (
             "12_graph",
-            17,
-            "Kahn's topo sort, Dijkstra, Prim/Kruskal MST",
+            24,
+            "Kahn's topo sort, Dijkstra, Kruskal MST, Floyd-Warshall",
         ),
         ("13_Trie", 6, "Trie prefix search, shortest unique prefix"),
         (
@@ -102,9 +110,9 @@ fn list_categories() {
             "Bit tricks, power set, non-repeating numbers",
         ),
         (
-            "Sorting_Algorithms",
-            6,
-            "Generic Bubble, Insertion, Selection, Merge, Quick, Heap sort",
+            "basic_codes",
+            14,
+            "Math basics, file I/O, anagrams, prime tests",
         ),
         (
             "common",

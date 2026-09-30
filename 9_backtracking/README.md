@@ -18,3 +18,9 @@
 | [p16_print_all_possible_paths_from_top_left_bottom_right_mxn_matrix.rs](p16_print_all_possible_paths_from_top_left_bottom_right_mxn_matrix.rs) | Backtracking / Matrix Traversal |
 | [p17_partition_array_to_k_subsets.rs](p17_partition_array_to_k_subsets.rs) | Backtracking / K-Partitioning |
 | [p18_find_k_th_permutation_sequence_first_n_natural_numbers.rs](p18_find_k_th_permutation_sequence_first_n_natural_numbers.rs) | Backtracking / Factorial Number System |
+| [p19_all_combination_str.rs](p19_all_combination_str.rs) | Subsequences & String Combinations |
+| [p20_knapsack1.rs](p20_knapsack1.rs) | 0/1 Knapsack (Recursive Choice) |
+| [p21_knapsack2.rs](p21_knapsack2.rs) | 0/1 Knapsack (Top-down DP / Memoized) |
+| [p22_path_finder.rs](p22_path_finder.rs) | Unique Paths in Grid (Backtracking / Combinatorics) |
+| [p23_sorted_check.rs](p23_sorted_check.rs) | Recursive Array Sorted Check |
+| [p24_tower_of_hanoi.rs](p24_tower_of_hanoi.rs) | Classical Tower of Hanoi Simulation |

@@ -20,6 +20,8 @@
 | [p15_convert_min_heap_max_heap.rs](p15_convert_min_heap_max_heap.rs) | Heap Construction / Reordering |
 | [p16_rearrange_characters.rs](p16_rearrange_characters.rs) | Max Heap / Greedy |
 | [p17_minimum_sum.rs](p17_minimum_sum.rs) | Min Heap / Greedy |
+| [p18_max_heap.rs](p18_max_heap.rs) | Generic MaxHeap Struct (BinaryHeap Wrapper) |
+| [p19_min_heap.rs](p19_min_heap.rs) | Generic MinHeap Struct (Reverse BinaryHeap Wrapper) |
 
 ---
 
